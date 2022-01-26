@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#main1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+#linediv{
+   position: absolute;
+   top: 62%;
+   background-color: rgba(255, 255, 255, 0.062);
+   width: 100%;
+   height: 60px;
+   border-top: .2px solid#fff;
+   border-bottom: .2px solid#fff;
+   z-index: 9;
+}
+#linediv #one{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%,-50%);
+    font-family: Gilroy;
+    font-size: 12px;
+    color: rgb(27, 27, 90);
+    letter-spacing: 2px;
+}
+#linediv #two{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0%,-50%);
+    font-family: Gilroy;
+    font-size: 12px;
+    color: rgb(27, 27, 90);
+    letter-spacing: 2px;
+}
+#left{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: silver;
+}
+#left h2{
+    position: absolute;
+    top: 4px;
+    left: 5%;
+    font-family: lora;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    z-index: 1;
+}
+#left #text{
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    font-family: Bickham script pro;
+    color: rgb(12, 12, 102);
+    font-size: 70px;
+    line-height: 120px;
+    z-index: 99;
+}
+#left #text1{
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    font-family:Bickham script pro;
+    color: rgb(12, 12, 102);
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#center{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+   background-color: red;
+   
+}
+#visit #one{
+    position: absolute;
+    top: 4px;
+    left: 5%;
+    font-family: lora;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    z-index: 1;
+    
+}
+#visit #two{
+    position: absolute;
+    top: 4px;
+    right: 21%;
+    font-family: lora;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    z-index: 1;
+    
+}
+
+#cbtm{
+    position: absolute;
+    bottom: 8%;
+    left: 1%;
+}
+#ctm h1,#cbtm h2{
+    font-family: Compacta Std;
+    font-size: 70px;
+    color: rgb(12, 12, 65);
+    font-weight: 100;
+}
+#cbtm h1{
+position: absolute;
+top: -70px;
+left: -25px;
+font-family: Compacta Std;
+font-size: 120px;
+color: rgb(12, 12, 65);
+font-weight: 100;
+}
+#cleft{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1547410617-6b835329e588?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#cright{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1617725508490-e468864f9765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#cright #circle{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: rgba(255, 0, 0, 0.021);
+    border-top: .2px solid #fff;
+    border-bottom: .2px solid #fff;
+    border-left: .2px solid #fff;
+    border-right: .2px solid #fff;
+
+}
+#circle h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Lora;
+    color: rgb(12, 12, 65);
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+#right{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+#right h2{
+    position: absolute;
+    top: 4px;
+    right: 10%;
+    font-family: lora;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    z-index: 1;
+}
+#cimg{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+   background-image: url(https://media.istockphoto.com/photos/beauty-comes-in-all-shapes-and-sizes-picture-id1137404386);
+   background-position: center;
+   background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+#rtop{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80);
+}
+#rbtm{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color:rgb(43, 6, 43);
+}
+#rbtm h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family: Compacta std;
+    font-weight: 400;
+    font-size: 100px;
+
+}
+#center #circle:hover{
+    background-color:rgba(0, 0, 255, 0.021) ;
+    cursor: pointer;
+}
+#circle h3:hover{
+    color: rgb(160, 26, 26);
+    cursor: pointer;
+}
+#linediv:hover{
+    cursor: pointer;
+    background-color: rgba(126, 11, 11, 0.068);
+}
+#left #text:hover{
+    -webkit-text-stroke: 3px rgba(0, 0, 73, 0.103);
+    color: transparent;
+}
+#left #text1:hover{
+    -webkit-text-stroke: 3px rgba(0, 0, 73, 0.103);
+    color: transparent;
+}
+#rbtm:hover{
+    background-color: black;
+}
+#rbtm h1:hover{
+    color: blue;
+}
+#cbtm h1:hover{
+    color:transparent;
+    -webkit-text-stroke: 3px rgba(22, 22, 78, 0.199);
+}
+#cbtm h2:hover{
+    color:transparent;
+    -webkit-text-stroke: 3px rgba(22, 22, 78, 0.418);
+}
